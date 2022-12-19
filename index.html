@@ -5,18 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+		 <link rel="stylesheet" href="font/Rimouski.css">
+    <link rel="stylesheet" href="style.css">
 
         <!-- ===== CSS ===== -->
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <title>MOKGADI MOGOELELWA</title>
     </head>
+    
     <body>
+
         <!--===== HEADER =====-->
         <header class="l-header">
+		
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo"></a>
+                    <a href="#" class="nav__logo"></a><br>
+                    
+                    
                    
                 </div>
                 
@@ -36,6 +43,7 @@
                     </ul>
                 </div>
             </nav>
+			
         </header>
 
         <main class="l-main">
@@ -51,12 +59,29 @@
                         <h1 class="home__title">Welcome!!<br></h1>
                         <p class="home__description">Am Mokgadi Mogoelelwa, a software developer student <br> from Tshwana University of technology.<br>Am currently enrolled for a <br>learnership at dynamic dna in Randburg.</p>
                         <a href="cvindex" class="home__button">see more</a>
+					
+                    <div class="notification"> </div>
+                    <div class="weather-container">
+                        <div class="weather-icon">
+                            <img src="icons/unknown.png" alt="">
+                        </div>
+                        <div class="temperature-value">
+                            <p>- °<span>C</span></p>
+                        </div>
+                        <div class="temperature-description">
+                            <p> - </p>
+                        </div>
+                        <div class="location">
+                            <p>-</p>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </section>
         </main>
-
+   
         <!--===== GSAP =====-->
+		    <script src="app.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 
         <!--===== MAIN JS =====-->
