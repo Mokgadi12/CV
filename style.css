@@ -38,7 +38,8 @@ body{
 .weather-container{
     width: 300px;
     height: 260px;
-    background-color: #220f1300;
+    background-color: #220f1300 ;
+    transition: .5s;
 }
 
 .weather-icon{
